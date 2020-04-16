@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: verdana;
+}
+.tiger {
+    width: 100px;
+    height: 75px;
+}
+.topMenu {
+    overflow: hidden;
+    background-color: #202024;
+}
+.leftOptions{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.search {
+    float: right;
+}
+.search input[type=text] {
+    padding: 2px;
+    margin: 10px;
+    font-size: 15px;
+    border: none;
+}
+.search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.search button:hover {
+    background-color: #f7c743;
+    color: black;
+}
+.rightOptions {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topMenu a:hover {
+    background-color: #f7c743;
+    color: black;
+}
+/*CSS for Columns*/
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+.leftContents {
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    border: 5px solid #202024;
+    border-radius: 10px;
+    margin: 20px;
+    height: 500px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.coryImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.rightContents {
+    width: 66.66%;
+    height: auto;
+    float: right;
+    padding: 10px;
+    border: 5px solid #202024;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footer {
+    background-color: #202024;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
+}
+/*Something*/
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color:#FFF;
+    max-width: 500px;
+    max-height: 500px;
+    width: 400px;
+    height: auto;
+    min-width: 200px;
+    min-height: 200px;
+    float: left;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  .card > .card-inner {
+    padding:10px;
+  }
+  .card .header h2, h3 {
+    margin-bottom: 0px;
+    margin-top:0px;
+  }
+  .card .header {
+    margin-bottom:5px;
+  }
+  .card img {
+    max-width: 100%;
+  }
+  /*CSS for Events Buttons*/
+  .joinButton {
+    background-color: #f7c743;
+    color: black;margin: auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .detailsButton {
+    background-color: #f7c743;
+    color: black;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+  }
